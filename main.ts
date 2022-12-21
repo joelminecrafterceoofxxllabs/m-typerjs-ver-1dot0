@@ -44,6 +44,9 @@ input.onButtonPressed(Button.A, function () {
             . # # # .
             `)
     }
+    if (Abc == 4) {
+        Abc = 0
+    }
 })
 input.onGesture(Gesture.Shake, function () {
     _do = 0
